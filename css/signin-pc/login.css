@@ -1,0 +1,33 @@
+.login-form{
+    display: flex;
+    justify-content: center;
+}
+.login-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: white;  
+    width: 328px;
+    align-items: center;
+    margin-top: 100px;
+    height: 256px;
+    opacity: 100%;
+    filter: drop-shadow(0px 3px 6px #00000029);
+}
+.username{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+}
+.username-input,
+.password-input{
+    width: 268;
+    height: 30px;
+    padding: 4px 4px 4px 4px;
+    border-width: 0px 0px 0px;
+    filter: drop-shadow(0px 0px 1px #AAAAAA );
+    opacity: 100%;
+    border-radius: 3px 3px; 
+}
