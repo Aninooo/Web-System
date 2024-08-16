@@ -1,47 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
-    <link rel="stylesheet" href="../css/signin-pc/header.css">
-    <link rel="stylesheet" href="../css/signin-pc/login.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign In</title>
+<link rel="stylesheet" href="../css/signin-pc/header.css">
+<link rel="stylesheet" href="../css/signin-pc/login.css">
+<link rel="stylesheet" href="../css/signin-pc/footer.css">
+
 </head>
 <body>
-    <header class="header">
-        <div class="dummy-text">Dummy</div>
-        <ul>
-            <li><a href="#service">Service</a></li>
-            <li><a href="#about-us">About Us</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><button id="signin">Sign In</button></li>
-        </ul>
-    </header>
-    <div class="header-image">
-        <img src="../assets/header.jpg" alt="Header Image">
-    </div>
+<header class="header">
+    <div class="dummy-text">Dummy</div>
+    <ul>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="signin-button">Sign In</button></li>
+    </ul>
+</header>
+<div class="header-image">
+    <img src="../assets/header.jpg" alt="Header Image">
+    <div class="text-overlay">Sign in</div>
+</div>
 
 <div class="login-form">
     <div class="login-container">
         <div class="login-box">
-            <h2>Sign In</h2>
             <form>
                 <div class="username"><label for="username">USERNAME</label></div>
                 <input class="username-input" type="text" id="username" name="username" required>
                 <div class="password"><label for="password">PASSWORD</label></div>
                 <input class="password-input" type="password" id="password" name="password" required>
-                <div><button type="submit">Sign In</button></div>
+                
+                    <div><button class="submit-button" type="submit">Sign In</button><a  class="forget-password" href="#forget-password">Forget Password?</a></div>   
             </form>
-            <div class="links">
-                <a href="#forgot-password">Forgot Password</a>
-                <a href="#privacy">Privacy</a>
-                <a href="#terms">Terms</a>
-            </div>
         </div>
     </div>
 </div>
-    
-    <script src="../js/sigin.js"></script>
+
+<div class="terms-privacy">
+    <a class="privacy" href="#privacy">Privacy</a>
+    <a class="terms" href="#terms">Terms</a>
+</div>
+<footer class="footer">
+    <div class="dummy-text">Dummy</div>
+    <div class="footer-right">(C) Dummy.</div>
+</footer>
+
+
+<script src="../js/sigin.js"></script>
 </body>
 </html>

@@ -1,0 +1,35 @@
+.footer {
+    width: 100%;
+    max-width: 2000px;
+    height: 60px;
+    background-color: #FFF000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: fixed; 
+    bottom: 0; 
+}
+
+.footer .dummy-text {
+    height: 24px;
+    line-height: 24px;
+    font-family: 'Helvetica Neue';
+    font-weight: bold;
+    color: #333333;
+    opacity: 1;
+    font-size: 18px;
+}
+
+.footer-right {
+    width: 62px;
+    height: 14px;
+    font-size: 12px;
+    font-family: 'Helvetica Neue';
+    font-weight: normal;
+    color: #333333;
+    text-align: right;
+    margin-right: 10%; 
+}
