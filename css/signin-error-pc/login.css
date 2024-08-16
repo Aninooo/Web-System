@@ -5,6 +5,7 @@
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: bold;
 }
+
 .login-container {
     display: flex;
     flex-direction: column;
@@ -13,9 +14,10 @@
     width: 328px;
     margin-top: 100px;
     padding: 16px;
-    height: 256px;
+    height: 313px;
     filter: drop-shadow(0px 3px 6px #00000029);
 }
+
 .form-group {
     margin-bottom: 16px;
     display: flex;
@@ -27,6 +29,22 @@
     margin-bottom: 4px;
     font-size: 14px;
     color: #333;
+}
+.login-error-message {
+    display: flex;                
+    align-items: center;          
+    justify-content: flex-start;  
+    width: 268px;
+    height: 42px;
+    background-color: #F8D7DA;   
+    color: #721C24;             
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;     
+    padding:10px;              
+    padding-right: 30px; 
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid #F5C6CB;
 }
 .username, 
 .password{
@@ -43,9 +61,10 @@
     border-radius: 3px;
     margin: 15px 0px 15px 0px;
     padding-right: 30px;
+
     
 }
-.submit-button {
+.signin-button {
     font-size: 16px;
     width: 120px;
     height: 42px;
@@ -56,7 +75,6 @@
     border: none;
     filter: drop-shadow(0px 3px 6px #0000004D);
     cursor: pointer;
-    
 }
 .forget-password,
 .button {
@@ -66,7 +84,7 @@
     opacity: 100%;
     font-weight: normal;
     line-height: 16px;
-    margin-left: 80px;
+    margin-left: 85px;
     text-decoration: none;
 }
 .terms-privacy {
@@ -83,8 +101,6 @@
     width: 50px;
     color: #1155CC;
     text-decoration: none;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 12px;
 }
 
 @media (max-width: 768px) {
@@ -93,6 +109,7 @@
         margin-top: 60px;
         padding: 12px;
     }
+
     .username-input,
     .password-input {
         width: 100%; 
