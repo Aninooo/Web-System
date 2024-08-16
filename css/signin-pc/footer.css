@@ -9,8 +9,8 @@
     padding: 0 10%;
     box-sizing: border-box;
     margin: 0 auto;
-    position: fixed; 
-    bottom: 0; 
+    position: fixed;
+    bottom: 0;
 }
 
 .footer .dummy-text {
@@ -24,12 +24,56 @@
 }
 
 .footer-right {
-    width: 62px;
-    height: 14px;
     font-size: 12px;
     font-family: 'Helvetica Neue';
     font-weight: normal;
     color: #333333;
     text-align: right;
-    margin-right: 10%; 
+    margin-right: 10%;
+}
+
+@media (min-width: 1280px) {
+    .footer {
+        height: 70px; 
+        padding: 0 15%; 
+    }
+
+    .footer .dummy-text {
+        font-size: 20px;
+    }
+
+    .footer-right {
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        padding: 0 5%;
+        height: 60px; 
+    }
+
+    .footer .dummy-text {
+        font-size: 16px; 
+    }
+
+    .footer-right {
+        font-size: 12px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 0 2%; 
+        height: 50px; 
+    }
+
+    .footer .dummy-text {
+        font-size: 14px; 
+    }
+
+    .footer-right {
+        font-size: 10px; 
+        margin-right: 5%; 
+    }
 }
