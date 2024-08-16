@@ -14,7 +14,6 @@ body {
     top: 60px; 
     display: flex;
     flex-direction: column;
-    border-radius: 8px;
 }
 
 .header {
