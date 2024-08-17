@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #FFF000;
+    width: 320px;
+    text-align: center;
+    height: 60px;
+    margin-top: auto;
+    font-size: 12px;
+    color: #333333;
+    padding: 0 15px; 
+    box-sizing: border-box; 
+}
+.dummy-text-footer{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-right{
+    font-size: 12px;
+    font-weight: normal;
+}
