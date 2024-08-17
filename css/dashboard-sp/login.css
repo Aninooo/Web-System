@@ -33,9 +33,13 @@
     border-radius: 4px;
     box-shadow: #0000004D 0px 3px 6px;
     cursor: pointer;
+    transition: background-color 0.50s;
 }
 .sign-out{
     justify-content: center;
     display: flex;
     margin-top: 10px;
+}
+.sign-out-button:hover{
+    background-color: #cf2083;
 }

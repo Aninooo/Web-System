@@ -123,3 +123,28 @@ body {
         margin-bottom: 5px;
     }
 }
+@media (max-width: 300px) {
+    .header {
+        height: auto; 
+        padding: 0 5%; 
+        flex-direction: column;
+        text-align: center; 
+    }
+    .header ul {
+        flex-direction: row;
+        gap: 15px; 
+    }
+    .header a, .header button {
+        font-size: 10px; 
+    }
+    .dummy-text {
+        font-size: 10pxpx; 
+    }
+    #signin-button {
+        width: 100%;
+        max-width: 200px; 
+        padding: 0px 10px 0px 10px;
+        margin-bottom: 5px;
+    }
+}
+

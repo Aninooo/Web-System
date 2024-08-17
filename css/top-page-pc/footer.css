@@ -31,8 +31,8 @@
 
 @media (min-width: 1280px) {
     .footer {
-        height: 70px;
-        padding: 0 10%;
+        height: 70px; 
+        padding: 0 10%; 
     }
     .dummy-text-footer {
         font-size: 20px;
@@ -44,34 +44,21 @@
 
 @media (max-width: 1024px) {
     .footer {
-        padding: 0 5%;
-        height: 60px;
+        padding: 0 5%; 
+        height: 60px; 
     }
     .dummy-text-footer {
-        font-size: 18px; 
+        font-size: 16px;
     }
     .footer-right {
         font-size: 12px;
     }
 }
 
-@media (max-width: 768px) {
-    .footer {
-        padding: 0 4%;
-        height: 55px; 
-    }
-    .dummy-text-footer {
-        font-size: 16px;
-    }
-    .footer-right {
-        font-size: 11px;
-    }
-}
-
 @media (max-width: 480px) {
     .footer {
-        padding: 0 2%;
-        height: 50px;
+        padding: 0 2%; 
+        height: 50px; 
     }
     .dummy-text-footer {
         font-size: 14px;

@@ -1,0 +1,90 @@
+.aboutus {
+    position: relative;
+    margin-top: 80px;
+    width: 100%; 
+    height: auto;
+}
+
+.aboutus-image {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.text-overlay {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    color: white;
+    padding: 20px; 
+    border-radius: 10px; 
+    width: 90%; 
+}
+
+.text-overlay h1 {
+    font-size: 46px; 
+    margin-bottom: 60px;
+    line-height: 1.2; 
+}
+
+.overlay-text {
+    width: 100%; 
+    max-width: 100%; 
+    font-size: 20px; 
+    overflow: auto; 
+    margin: 20px 0 0; 
+    line-height: 40px; 
+    font-weight: normal;
+    box-sizing: border-box; 
+}
+
+@media (max-width: 1200px) {
+    .text-overlay {
+        width: 85%; 
+    }
+    .text-overlay h1 {
+        font-size: 42px; 
+    }
+    .overlay-text {
+        font-size: 18px; 
+    }
+}
+
+@media (max-width: 992px) {
+    .text-overlay {
+        width: 80%; 
+    }
+    .text-overlay h1 {
+        font-size: 36px; 
+    }
+    .overlay-text {
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .text-overlay {
+        width: 100%; 
+    }
+    .text-overlay h1 {
+        font-size: 30px; 
+    }
+    .overlay-text {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .text-overlay {
+        width: 100%; 
+        margin-bottom: 100px;
+    }
+    .text-overlay h1 {
+        font-size: 24px;
+    }
+    .overlay-text {
+        font-size: 12px; 
+    }
+}

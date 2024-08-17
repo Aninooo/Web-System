@@ -102,7 +102,6 @@
     color: #1155CC;
     text-decoration: none;
 }
-
 @media (max-width: 768px) {
     .login-container {
         width: 90%;
@@ -112,50 +111,65 @@
 
     .username-input,
     .password-input {
-        width: 100%; 
-    }
-    .submit-button {
         width: 100%;
     }
-    .terms-privacy {
-        margin-left: 0;
-        justify-content: space-between;
+
+    .signin-button {
+        width: 100%;
     }
+
+    .terms-privacy {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
     .forget-password,
     .button {
-        margin-left: 0;
+        margin: 10px 0;
         text-align: center;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 280px) {
     .login-container {
         width: 95%;
         margin-top: 40px;
         padding: 10px;
     }
+
     .username-input,
     .password-input {
         width: 100%;
     }
-    .submit-button {
+
+    .signin-button {
         width: 100%;
         height: 40px;
     }
+
     .terms-privacy {
         flex-direction: column;
-        margin-left: 0;
+        align-items: center;
         justify-content: center;
+        margin-left: 0;
     }
+
     .privacy,
     .terms {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         width: auto;
         text-align: center;
-        margin: 5px 0;
     }
+
     .forget-password,
     .button {
         margin: 10px 0;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
     }
 }

@@ -1,0 +1,167 @@
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px; 
+    flex-wrap: wrap; 
+}
+
+.title-services {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    max-width: 244px;
+    margin-bottom: 20px; 
+}
+
+.service-title-1,
+.service-title-2,
+.service-title-3,
+.service-title-4 {
+    width: 244px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.service-caption {
+    margin-top: 15px; 
+}
+
+.service-title {
+    font-size: 24px; 
+    margin-bottom: 5px; 
+}
+
+.service-description {
+    font-size: 16px; 
+    color: #666; 
+    line-height: 1.4; 
+    max-width: 244px; 
+}
+
+@media (max-width: 1200px) {
+    .title-services {
+        font-size: 36px;
+    }
+
+    .service-item {
+        max-width: 200px;
+    }
+
+    .service-title-1,
+    .service-title-2,
+    .service-title-3,
+    .service-title-4 {
+        width: 200px;
+        height: 140px;
+    }
+
+    .service-title {
+        font-size: 20px;
+    }
+
+    .service-description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+    .title-services {
+        font-size: 30px;
+    }
+
+    .service-item {
+        max-width: 180px;
+    }
+
+    .service-title-1,
+    .service-title-2,
+    .service-title-3,
+    .service-title-4 {
+        width: 180px;
+        height: 120px;
+    }
+
+    .service-title {
+        font-size: 18px;
+    }
+
+    .service-description {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .title-services {
+        font-size: 24px;
+    }
+
+    .services {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px; 
+    }
+
+    .service-item {
+        max-width: 150px;
+        width: 100%;
+    }
+
+    .service-title-1,
+    .service-title-2,
+    .service-title-3,
+    .service-title-4 {
+        width: 150px;
+        height: 100px;
+    }
+
+    .service-title {
+        font-size: 16px;
+    }
+
+    .service-description {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .title-services {
+        font-size: 18px;
+    }
+
+    .services {
+        flex-direction: row;
+        justify-content: center;
+        gap: 8px; 
+    }
+
+    .service-item {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .service-title-1,
+    .service-title-2,
+    .service-title-3,
+    .service-title-4 {
+        width: 100%;
+        height: auto;
+    }
+
+    .service-title {
+        font-size: 14px;
+    }
+
+    .service-description {
+        font-size: 8px;
+    }
+}
