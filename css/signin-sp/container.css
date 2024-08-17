@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start; 
+    height: 573px;
+    width: 320px;
+    background-color: #FFFFFF;
+}
