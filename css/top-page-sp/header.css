@@ -1,0 +1,31 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #FFF000;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.dummy {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.menu-icon div {
+    background-color: #333333;
+    height: 3px;
+    width: 28px;
+    border-radius: 2px;
+}

@@ -1,0 +1,31 @@
+.slider-container {
+    width: 320px;  /* Fixed width for the slider */
+    height: 300px; /* Fixed height for the slider */
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto; /* Center the slider */
+}
+
+.slide img {
+    width: 320px;  /* Make sure the image fits the container */
+    height: 300px; /* Make sure the image fits the container */
+    object-fit: cover; /* Ensure the image scales properly within the container */
+}
+
+.nav-buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}

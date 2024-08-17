@@ -1,0 +1,132 @@
+
+/* About Us Section */
+.aboutus {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    margin: 20px 0;
+}
+
+.aboutus-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.text-overlay h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.overlay-text {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* News Section */
+.news-title {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px;
+}
+
+.information-line-top, .information-line-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date {
+    font-size: 10px;
+    color: #999;
+}
+
+.information, .recruit {
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.news-list {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Contact Section */
+.contact-container {
+    margin: 20px 0;
+}
+
+.contact-content {
+    position: relative;
+    text-align: center;
+}
+
+.contact-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.contact-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: white;
+}
+
+.map {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #333;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+}
+
+.dummy-text-footer {
+    font-size: 12px;
+    color: #333;
+}
+
+.footer-right {
+    font-size: 10px;
+    color: #999;
+}
