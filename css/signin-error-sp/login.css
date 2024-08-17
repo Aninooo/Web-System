@@ -1,0 +1,121 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.signin-form {
+    margin-top: 19px;
+    background-color: #FFFFFF;
+    width: 290px;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.29);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px; 
+    padding-right: 15px;
+    box-sizing: border-box;
+    height: 272px; 
+}
+.login-error-message {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 260px;
+    height: 42px;
+    background-color: #F8D7DA;
+    color: #721C24;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid #F5C6CB;
+    margin-top: 15px;
+    padding-left: 15px; 
+    box-sizing: border-box;
+}
+
+
+
+.input-group {
+    font-weight: bold;
+    font-size: 12px;
+    width: 100%;
+}
+
+.input-group input {
+    height: 42px;
+    width: 100%;
+    border: 1px solid #AAAAAA;
+    border-radius: 4px;
+}
+
+.password-box,
+.username-box {
+    margin-top: 10px; 
+}
+
+.password-box {
+    margin-top: 15px; 
+}
+
+.password,
+.username {
+    height: 42px;
+    width: 100%; 
+    border: 1px solid #AAAAAA;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.signin-button-box {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.signin-button {
+    width: 90px;
+    height: 36px;
+    border: none;
+    background-color: #E3007F;
+    color: white;
+    box-shadow: #0000004D 0px 3px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.signin-button:hover{
+    background-color: #aa0663;
+}
+.username-box {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.forget-password {
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.terms-privacy {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px; 
+    margin-top: 15px;
+    font-size: 12px;
+    width: 100%; 
+    padding-right: 15px; 
+    box-sizing: border-box; 
+}
+
+.terms-privacy a {
+    text-decoration: none;
+    color: #1155CC;
+    font-size: 12px;
+}
+
+.terms-privacy a:hover {
+    text-decoration: underline;
+}

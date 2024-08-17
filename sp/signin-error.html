@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Sign in (SP)</title>
-    <link rel="stylesheet" href="../css/signin-sp/container.css">
-    <link rel="stylesheet" href="../css/signin-sp/header.css"> <!-- Separated header CSS -->
-    <link rel="stylesheet" href="../css/signin-sp/login.css">
-    <link rel="stylesheet" href="../css/signin-sp/footer.css">
+    <title>Sign in - Error (SP)</title>
+    <link rel="stylesheet" href="../css/signin-error-sp/container.css">
+    <link rel="stylesheet" href="../css/signin-error-sp/header.css"> <!-- Separated header CSS -->
+    <link rel="stylesheet" href="../css/signin-error-sp/login.css">
+    <link rel="stylesheet" href="../css/signin-error-sp/footer.css">
 </head>
 <body>
     <div class="container">
@@ -28,6 +28,9 @@
         
         <div class="signin-form">
             <div class="input-group">
+                <div class="login-error-message" id="login-error-message">
+                    Login Failed
+                </div>
                 <div class="username-box"><label for="username">USERNAME</label></div>
                 <input class="username" type="text" id="username" name="username" required>
                 <div class="password-box"><label for="password">PASSWORD</label></div>
