@@ -1,13 +1,11 @@
 .slider-container {
-    width: 320px;  
-    height: 300px; 
     overflow: hidden;
     position: relative;
     margin: 0 auto; 
 }
 
 .slide img {
-    width: 320px;  
+    width: 370px;  
     height: 300px; 
     object-fit: cover; 
 }
