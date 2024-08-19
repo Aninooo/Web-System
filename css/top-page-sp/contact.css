@@ -29,7 +29,6 @@
     bottom: 50px; 
     left: 50%;
     transform: translateX(-50%);
-    background-color: #CCCCCC;
     color: #333333;
     width: 290px;
     height: 400px;
@@ -39,4 +38,59 @@
     font-size: 32px;
     font-weight: bold;
 
+}
+@media only screen and (max-width: 480px) {
+    .contact-image {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .contact-text {
+        font-size: 24px; 
+        top: 20px; 
+    }
+
+    .map {
+        width: 100%;
+        height: 250px; 
+        font-size: 24px; 
+        bottom: 20px; 
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-image {
+        width: 100%; 
+        height: 553px; 
+    }
+
+    .contact-text {
+        font-size: 28px; 
+        top: 25px; 
+    }
+
+    .map {
+        width: 290px; 
+        height: 400px; 
+        font-size: 28px; 
+        bottom: 30px; 
+    }
+}
+@media only screen and (min-width: 769px) {
+    .contact-image {
+        width: 320px; 
+        height: 553px; 
+    }
+
+    .contact-text {
+        font-size: 32px; 
+        top: 30px; 
+    }
+
+    .map {
+        width: 290px; 
+        height: 400px; 
+        font-size: 32px; 
+        bottom: 50px; 
+    }
 }

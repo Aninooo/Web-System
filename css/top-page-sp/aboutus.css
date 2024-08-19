@@ -36,3 +36,62 @@
     font-size: 14px;
     line-height: 1.5;
 }
+@media only screen and (max-width: 480px) {
+    .aboutus {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .text-overlay {
+        padding: 15px;
+    }
+
+    .text-overlay h1 {
+        font-size: 24px;
+    }
+
+    .overlay-text {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .aboutus {
+        width: 375px;
+        height: 564px;
+        margin-top: 30px;
+    }
+
+    .text-overlay {
+        padding: 18px;
+    }
+
+    .text-overlay h1 {
+        font-size: 28px;
+    }
+
+    .overlay-text {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .aboutus {
+        width: 320px;
+        height: 564px;
+        margin-top: 50px;
+    }
+
+    .text-overlay {
+        padding: 20px;
+    }
+
+    .text-overlay h1 {
+        font-size: 32px;
+    }
+
+    .overlay-text {
+        font-size: 14px;
+    }
+}

@@ -119,112 +119,54 @@ body {
 .nav-button:hover {
     color: #ddd;
 }
-
-@media (max-width: 1200px) {
-    .header {
-        padding: 0 7%; 
-    }
-    .header ul {
-        gap: 30px; 
-    }
-    .header a, .header button {
-        font-size: 14px; 
-    }
-    .dummy-text {
-        font-size: 16px; 
-    }
-    .slider-container {
-        height: 260px; 
-    }
-    .nav-buttons {
-        width: 100%; 
-    }
-}
-
-@media (max-width: 100px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
     .header {
         padding: 0 5%; 
-        flex-direction: row;
-        text-align: center; 
-        height: auto;
     }
-    .header ul {
-        flex-direction: rows;
-        margin-left: 350px;
-    }
+
     .header a, .header button {
         font-size: 14px; 
     }
-    .dummy-text {
-        font-size: 14px; 
-    }
+
     .slider-container {
-        height: 220px; 
+        height: 250px; 
     }
+
+    .slide, .side-image {
+        height: 250px; 
+    }
+
     .nav-buttons {
-        width: 100%; 
-        padding: 0 10px;
+        width: 100%;
     }
+
     .nav-button {
         font-size: 20px; 
     }
-    .services, .aboutus, .contact, .news {
-        flex-direction: column;
-        gap: 15px; 
-    }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1280px) and (max-width: 1440px) {
     .header {
-        padding: 0 3%; 
+        padding: 0 7%; 
     }
-    .header ul {
-        gap: 8px; 
-    }
-    .header a, .header button {
-        font-size: 12px; 
-    }
-    .dummy-text {
-        font-size: 12px; 
-    }
-    .slider-container {
-        height: 200px; 
-    }
-    .nav-button {
-        width: 40px;
-        height: 40px;
-        font-size: 18px;
-    }
-    .services, .aboutus, .contact, .news {
-        flex-direction: column;
-        gap: 10px; 
-    }
-}
 
-@media (max-width: 576px) {
-    .header {
-        padding: 0 2%; 
-    }
-    .header ul {
-        flex-direction: column;
-        gap: 5px; 
-    }
     .header a, .header button {
-        font-size: 10px; 
+        font-size: 15px; 
     }
-    .dummy-text {
-        font-size: 10px; 
-    }
+
     .slider-container {
-        height: 180px; 
+        height: 280px; 
     }
+
+    .slide, .side-image {
+        height: 280px;
+    }
+
+    .nav-buttons {
+        width: 1750px;
+    }
+
     .nav-button {
-        width: 36px;
-        height: 36px;
-        font-size: 16px;
-    }
-    .services, .aboutus, .contact, .news {
-        flex-direction: column;
-        gap: 5px; 
+        font-size: 22px;
     }
 }

@@ -82,44 +82,62 @@ body {
     line-height: 56px;
     text-shadow: #000000 0px 0px 5px;
 }
-@media (max-width: 600px) {
-    .header-image {
-        width: 100%;
-        height: auto;
-        overflow: hidden; 
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .header {
+        padding: 0 5%; 
     }
 
-    .header-image img {
-        width: 100%; 
-        height: auto; 
-        object-fit: cover; 
+    .dummy-text {
+        font-size: 16px; 
     }
-    .text-overlay {
-        font-size: 24px; 
-        line-height: 34px; 
-    }
-}
-@media (max-width: 600px) {
-    .header {
-        height: auto; 
-        padding: 0 5%; 
-        flex-direction: column;
-        text-align: center; 
-    }
-    .header ul {
-        flex-direction: row;
-        gap: 15px; 
-    }
+
     .header a, .header button {
         font-size: 14px; 
     }
-    .dummy-text {
-        font-size: 14px; 
+
+    .header button {
+        height: 28px; 
+        width: 70px;  
+        font-size: 12px; 
     }
-    #signin-button {
-        width: 100%;
-        max-width: 200px; 
-        padding: 0px 10px 0px 10px;
-        margin-bottom: 5px;
+
+    .header-image img {
+        height: 180px; 
+    }
+
+    .text-overlay {
+        font-size: 36px; 
+        width: 250px;   
+        line-height: 44px; 
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+    .header {
+        padding: 0 7%; 
+    }
+
+    .dummy-text {
+        font-size: 17px; 
+    }
+
+    .header a, .header button {
+        font-size: 15px; 
+    }
+
+    .header button {
+        height: 30px; 
+        width: 75px;  
+        font-size: 13px; 
+    }
+
+    .header-image img {
+        height: 190px; 
+    }
+
+    .text-overlay {
+        font-size: 40px; 
+        width: 275px;   
+        line-height: 50px; 
     }
 }

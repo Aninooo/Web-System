@@ -40,3 +40,74 @@
     text-align: left;
 
 }
+@media only screen and (max-width: 480px) {
+    .title-services {
+        font-size: 24px;
+        margin: 30px 0;
+    }
+
+    .services {
+        margin: 5px;
+    }
+
+    .service-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .service-title {
+        font-size: 18px;
+    }
+
+    .service-description {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .title-services {
+        font-size: 26px;
+        margin: 40px 0;
+    }
+
+    .services {
+        margin: 10px;
+    }
+
+    .service-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .service-title {
+        font-size: 19px;
+    }
+
+    .service-description {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .title-services {
+        font-size: 30px;
+        margin: 50px 0;
+    }
+
+    .services {
+        margin: 10px;
+    }
+
+    .service-item img {
+        width: 320px;
+        height: 210px;
+    }
+
+    .service-title {
+        font-size: 20px;
+    }
+
+    .service-description {
+        font-size: 12px;
+    }
+}

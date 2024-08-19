@@ -33,3 +33,45 @@
     align-items: center;
     justify-content: center;
 }
+@media only screen and (max-width: 480px) {
+    .slide img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .nav-button {
+        font-size: 20px; 
+        width: 12px;
+        height: 12px;
+        line-height: 36px; 
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .slide img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .nav-button {
+        font-size: 22px; 
+        width: 14px;
+        height: 14px;
+        line-height: 42px; 
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .slide img {
+        width: 370px; 
+        height: 300px; 
+    }
+
+    .nav-button {
+        font-size: 24px; 
+        width: 15.2px;
+        height: 15.2px;
+        line-height: 46.94px; 
+    }
+}

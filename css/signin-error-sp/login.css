@@ -119,3 +119,88 @@ body {
 .terms-privacy a:hover {
     text-decoration: underline;
 }
+@media only screen and (max-width: 480px) {
+    .signin-form {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .login-error-message,
+    .input-group input,
+    .password,
+    .username {
+        width: 100%; 
+    }
+
+    .signin-button {
+        width: 90px;
+    }
+
+    .terms-privacy {
+        flex-direction: column; 
+        align-items: flex-start; 
+        gap: 5px; 
+        padding-right: 0; 
+    }
+    .terms-privacy {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row; 
+        gap: 15px;
+        margin-top: 15px;
+        font-size: 12px;
+        width: 100%;
+        box-sizing: border-box;
+        align-items: end;
+        margin-right: 40px;
+    }
+
+    .terms-privacy a {
+        text-decoration: none;
+        color: #1155CC;
+        font-size: 12px;
+    }
+
+    .terms-privacy a:hover {
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .signin-form {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .login-error-message {
+        width: 100%;
+    }
+
+    .signin-button {
+        width: 90px;
+    }
+
+    .terms-privacy {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row; 
+        gap: 15px;
+        margin-top: 15px;
+        font-size: 12px;
+        width: 100%;
+        box-sizing: border-box;
+        align-items: end;
+        margin-right: 40px;
+    }
+
+    .terms-privacy a {
+        text-decoration: none;
+        color: #1155CC;
+        font-size: 12px;
+    }
+
+    .terms-privacy a:hover {
+        text-decoration: underline;
+    }
+}
+
