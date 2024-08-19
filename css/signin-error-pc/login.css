@@ -4,7 +4,6 @@
     opacity: 100%;
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: bold;
-    margin-bottom: auto;
 
 }
 
@@ -104,13 +103,15 @@
     color: #1155CC;
     text-decoration: none;
 }
-@media (max-width: 768px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
     .login-container {
         width: 90%;
         margin-top: 60px;
         padding: 12px;
     }
-
+.login-form{
+    margin-bottom: 100px;
+}
     .username-input,
     .password-input {
         width: 100%;
